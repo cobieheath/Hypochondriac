@@ -6,3 +6,16 @@ html, body {
 canvas {
   display: block;
 }
+
+button {
+  background-color:white;
+  border: none;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: red;
+}

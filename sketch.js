@@ -5,9 +5,8 @@ function setup() {
   createCanvas(500, 700);
   img = loadImage('Human.png')
   button = createButton('');
-  button.position(245,85);
+  button.position(247,85);
   button.mousePressed(thought);
-  
 }
 
 function draw() {
