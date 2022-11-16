@@ -28,25 +28,25 @@ function draw() {
 
 function alerthead() {
   if (head.mousePressed) {
-    alert('hello');
+    alert('My head hurts. I think I have a brain tumor. I need an MRI.');
   }
 }
 
 function alerthand() {
   if (hand.mousePressed) {
-    alert('hello');
+    alert('My hand hurts. I think I have carpal tunnel. I need to book an appointment with an orthopedic specialist ');
   }
 }
 
 function alertbelly() {
   if (head.mousePressed) {
-    alert('hello');
+    alert('My stomach hurts. I think I have IBS. I need to visit a gastroenterologist');
   }
 }
 
 function alertknee() {
   if (head.mousePressed) {
-    alert('hello');
+    alert('My knee hurts. I think I have osteoarthritis. I need to see an orthopedic specialist');
   }
 }
 
