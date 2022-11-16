@@ -6,9 +6,17 @@ function setup() {
   img = loadImage('Human.png')
   button = createButton('');
   button.position(245,85);
+  button.mousePressed(thought);
+  
 }
 
 function draw() {
   background(125);
   image(img, 0, 0);
+}
+
+function thought() {
+  if (button.mousePressed) {
+    alert('hello');
+  }
 }
