@@ -5,6 +5,7 @@ html, body {
 
 canvas {
   display: block;
+  position:inherit
 }
 
 button {
@@ -24,4 +25,13 @@ h1 {
   color: red;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px #000000;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  color: black;
 }

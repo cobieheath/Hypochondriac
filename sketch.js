@@ -8,16 +8,16 @@ function setup() {
   createCanvas(500, 700);
   img = loadImage('Human.png')
   head = createButton('');
-  head.position(257,165);
+  head.position(257,195);
   head.mousePressed(alerthead);
   hand = createButton('');
-  hand.position(146,453);
+  hand.position(146,483);
   hand.mousePressed(alerthand);
   belly = createButton('');
-  belly.position (257,380);
+  belly.position (257,400);
   belly.mousePressed(alertbelly);
   knee = createButton('');
-  knee.position (285,560);
+  knee.position (285,580);
   knee.mousePressed(alertknee);
 }
 
